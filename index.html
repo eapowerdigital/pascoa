@@ -4,82 +4,124 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Doce Oportunidade | Ovos de Páscoa Artesanais</title>
+  <meta name="description" content="Aprenda a ganhar dinheiro fazendo ovos de Páscoa artesanais. Curso completo para iniciantes." />
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
       background: #f7efe5;
       color: #3e2723;
+      line-height: 1.6;
     }
+
     header {
       background: linear-gradient(135deg, #5d4037, #3e2723);
       color: #fff;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
-      font-size: 2.2em;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
     }
+
     header p {
-      margin-top: 10px;
-      font-size: 1.1em;
+      margin-top: 15px;
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: auto;
       padding: 40px 20px;
     }
+
     .card {
       background: #fff;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-      margin-bottom: 30px;
+      border-radius: 16px;
+      padding: 35px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.12);
     }
+
     .card h2 {
       margin-top: 0;
+      font-size: clamp(1.4rem, 3vw, 1.8rem);
       color: #4e342e;
     }
+
     .benefits ul {
       padding-left: 20px;
+      margin: 20px 0 0 0;
     }
+
     .benefits li {
-      margin-bottom: 10px;
+      margin-bottom: 12px;
+      font-size: clamp(0.95rem, 2.2vw, 1.05rem);
     }
+
     .buttons {
-      text-align: center;
-      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 35px;
     }
+
     .buttons a {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 30px;
+      flex: 1 1 220px;
+      max-width: 320px;
+      text-align: center;
+      padding: 16px 28px;
       border-radius: 50px;
       text-decoration: none;
-      font-size: 1.1em;
-      font-weight: bold;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
     }
+
+    .buttons a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
     .btn-buy {
       background: #8d6e63;
       color: #fff;
     }
+
     .btn-buy:hover {
       background: #6d4c41;
     }
+
     .btn-whatsapp {
       background: #25d366;
       color: #fff;
     }
+
     .btn-whatsapp:hover {
       background: #1ebe5d;
     }
+
     footer {
       background: #3e2723;
       color: #fff;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      padding: 25px 15px;
+      font-size: 0.95rem;
+    }
+
+    @media (min-width: 900px) {
+      .card {
+        padding: 45px 60px;
+      }
     }
   </style>
 </head>
@@ -87,19 +129,19 @@
 
   <header>
     <h1>Doce Oportunidade de Páscoa</h1>
-    <p>Aprenda a lucrar com ovos de Páscoa artesanais mesmo começando do zero</p>
+    <p>Aprenda passo a passo como lucrar com ovos de Páscoa artesanais, mesmo começando do zero.</p>
   </header>
 
-  <div class="container">
-    <div class="card">
+  <main class="container">
+    <section class="card">
       <h2>📘 O que você vai aprender</h2>
       <div class="benefits">
         <ul>
-          <li>Como fazer ovos de Páscoa artesanais irresistíveis</li>
-          <li>Receitas testadas e aprovadas</li>
-          <li>Precificação correta para lucrar</li>
-          <li>Dicas de vendas para a Páscoa</li>
-          <li>Ideal para iniciantes e empreendedores</li>
+          <li>Produção de ovos de Páscoa artesanais do básico ao profissional</li>
+          <li>Receitas lucrativas e fáceis de aplicar</li>
+          <li>Como calcular custos e definir o preço certo</li>
+          <li>Dicas práticas para vender muito na Páscoa</li>
+          <li>Ideal para renda extra ou negócio próprio</li>
         </ul>
       </div>
 
@@ -107,13 +149,12 @@
         <a class="btn-buy" href="https://elonadesouza.hotmart.host/doce-oportunidade-empreenda-com-ovos-de-pascoa-6faab0db-95cd-42a1-b9f6-476c2a1854c2" target="_blank">
           🍫 Comprar agora
         </a>
-
         <a class="btn-whatsapp" href="https://wa.me/5515997747631" target="_blank">
           💬 Falar no WhatsApp
         </a>
       </div>
-    </div>
-  </div>
+    </section>
+  </main>
 
   <footer>
     © 2026 • Doce Oportunidade • Todos os direitos reservados
